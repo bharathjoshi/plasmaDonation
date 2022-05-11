@@ -1,5 +1,10 @@
 package com.application.filter;
 
+import com.application.controller.RegistrationController;
+import com.application.util.JwtUtils;
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -15,7 +20,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
+@Slf4j
 @Component
 public class JwtFilter extends OncePerRequestFilter
 {
@@ -24,8 +29,10 @@ public class JwtFilter extends OncePerRequestFilter
 
     @Autowired
     private RegistrationService service;
+    private static final Logger logger = LoggerFactory.getLogger(JwtFilter.class);
 
     protected void doFilterInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, FilterChain filterChain) throws ServletException, IOException {
+        logger.info("[INFO]: inside doFilterInternal ");
 
         String authorizationHeader = httpServletRequest.getHeader("Authorization");
 

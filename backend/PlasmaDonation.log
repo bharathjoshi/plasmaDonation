@@ -1,0 +1,213 @@
+10/May/2022:21:56:18 938 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Starting plasmaDonationApplication using Java 11.0.15.1 on Bharaths-MacBook-Air.local with PID 4686 (/Users/bharathjoshi/Desktop/plasmaDonationManagement/target/classes started by bharathjoshi in /Users/bharathjoshi/Desktop/plasmaDonationManagement)
+10/May/2022:21:56:18 943 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplication Running with Spring Boot v2.5.0, Spring v5.3.7
+10/May/2022:21:56:18 944 [SpringApplication.java] [INFO] c.a.plasmaDonationApplication No active profile set, falling back to default profiles: default
+10/May/2022:21:56:25 715 [GenericFilterBean.java] [DEBUG] com.application.filter.JwtFilter Filter 'jwtFilter' configured for use
+10/May/2022:21:56:25 976 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+10/May/2022:21:56:26 065 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+10/May/2022:21:56:26 277 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+10/May/2022:21:56:26 395 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+10/May/2022:21:56:27 134 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Started plasmaDonationApplication in 9.321 seconds (JVM running for 11.465)
+10/May/2022:21:56:32 602 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+10/May/2022:21:56:32 859 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:inside registerUser 
+10/May/2022:21:56:32 860 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+10/May/2022:21:56:33 189 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+10/May/2022:21:56:33 318 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:User saved
+10/May/2022:21:56:48 682 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+10/May/2022:21:56:48 686 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:inside registerUser 
+10/May/2022:21:56:48 686 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+10/May/2022:21:56:48 690 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+10/May/2022:21:56:48 707 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:User saved
+10/May/2022:21:57:17 332 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+10/May/2022:21:57:17 363 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]: inside generateToken 
+10/May/2022:21:57:17 365 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside getAllUsers 
+10/May/2022:21:57:17 429 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]: Authenticating 
+10/May/2022:21:57:17 433 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByUsername 
+10/May/2022:21:57:21 741 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+10/May/2022:21:57:21 750 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]: inside generateToken 
+10/May/2022:21:57:21 751 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside getAllUsers 
+10/May/2022:21:57:21 786 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]: Authenticating 
+10/May/2022:21:57:21 787 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByUsername 
+10/May/2022:21:57:27 591 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+10/May/2022:21:57:27 596 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]: inside generateToken 
+10/May/2022:21:57:27 597 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside getAllUsers 
+10/May/2022:21:57:27 642 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]: Authenticating 
+10/May/2022:21:57:27 643 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByUsername 
+10/May/2022:21:57:32 854 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+10/May/2022:21:57:32 858 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]: inside generateToken 
+10/May/2022:21:57:32 858 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside getAllUsers 
+10/May/2022:21:57:32 892 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]: Authenticating 
+10/May/2022:21:57:32 892 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByUsername 
+11/May/2022:12:28:24 155 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Starting plasmaDonationApplication using Java 11.0.15.1 on Bharaths-MacBook-Air.local with PID 6085 (/Users/bharathjoshi/Desktop/plasmaDonationManagement/target/classes started by bharathjoshi in /Users/bharathjoshi/Desktop/plasmaDonationManagement)
+11/May/2022:12:28:24 170 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplication Running with Spring Boot v2.5.0, Spring v5.3.7
+11/May/2022:12:28:24 170 [SpringApplication.java] [INFO] c.a.plasmaDonationApplication No active profile set, falling back to default profiles: default
+11/May/2022:12:28:32 528 [GenericFilterBean.java] [DEBUG] com.application.filter.JwtFilter Filter 'jwtFilter' configured for use
+11/May/2022:12:28:32 786 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+11/May/2022:12:28:32 900 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+11/May/2022:12:28:33 089 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+11/May/2022:12:28:33 206 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+11/May/2022:12:28:34 069 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Started plasmaDonationApplication in 11.014 seconds (JVM running for 14.321)
+11/May/2022:12:38:26 800 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:12:38:27 176 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:inside registerUser 
+11/May/2022:12:38:27 177 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+11/May/2022:12:38:27 678 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+11/May/2022:12:38:27 886 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:User saved
+11/May/2022:12:45:11 792 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:12:45:11 822 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:inside registerUser 
+11/May/2022:12:45:11 823 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+11/May/2022:12:45:11 910 [RegistrationController.java] [ERROR] c.a.c.RegistrationController [ERROR] :User with @gmail.com already exists
+11/May/2022:12:45:38 619 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:12:45:38 627 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:inside registerUser 
+11/May/2022:12:45:38 627 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+11/May/2022:12:45:38 631 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+11/May/2022:12:45:38 657 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:User saved
+11/May/2022:12:48:50 288 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:12:48:50 296 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:inside registerUser 
+11/May/2022:12:48:50 297 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+11/May/2022:12:48:50 303 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+11/May/2022:12:48:50 330 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:User saved
+11/May/2022:12:57:42 281 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:12:57:42 292 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:inside registerUser 
+11/May/2022:12:57:42 292 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+11/May/2022:12:57:42 303 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+11/May/2022:12:57:42 328 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:User saved
+11/May/2022:15:44:21 454 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:15:44:21 480 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:inside registerUser 
+11/May/2022:15:44:21 481 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+11/May/2022:15:44:21 507 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+11/May/2022:15:44:21 535 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:User saved
+11/May/2022:15:46:21 573 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:15:46:21 580 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:inside registerUser 
+11/May/2022:15:46:21 581 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+11/May/2022:15:46:21 588 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+11/May/2022:15:46:21 613 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:User saved
+11/May/2022:15:51:09 159 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:15:51:09 185 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:inside loginUser 
+11/May/2022:15:51:09 186 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmailAndPassword 
+11/May/2022:15:51:09 242 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:Login Successful
+11/May/2022:16:01:07 511 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:03:56 228 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:04:03 214 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:04:03 321 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]: inside generateToken 
+11/May/2022:16:04:03 322 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside getAllUsers 
+11/May/2022:16:04:03 455 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]: Authenticating 
+11/May/2022:16:04:03 473 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByUsername 
+11/May/2022:16:04:13 312 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:04:13 382 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:04:33 916 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:04:33 917 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:04:33 940 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside addUserAsDonor
+11/May/2022:16:04:33 940 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside saveUserAsDonor 
+11/May/2022:16:07:13 327 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:07:13 331 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:07:28 955 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:07:28 958 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:07:38 040 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:07:38 043 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:07:38 129 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside updateStatus
+11/May/2022:16:07:38 129 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside updateStatus 
+11/May/2022:16:08:03 261 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:08:03 264 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:08:03 289 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside updateStatus
+11/May/2022:16:08:03 290 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside updateStatus 
+11/May/2022:16:08:04 543 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:08:04 545 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:08:04 578 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside updateStatus
+11/May/2022:16:08:04 579 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside updateStatus 
+11/May/2022:16:08:13 653 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:08:13 654 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:08:17 319 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:08:17 322 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:08:17 339 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside updateStatus
+11/May/2022:16:08:17 340 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside updateStatus 
+11/May/2022:16:08:49 630 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:08:49 633 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:09:11 474 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:09:11 477 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:09:11 498 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside updateStatus
+11/May/2022:16:09:11 498 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside updateStatus 
+11/May/2022:16:09:40 140 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:09:40 143 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:09:40 160 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside updateStatus
+11/May/2022:16:09:40 160 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside updateStatus 
+11/May/2022:16:09:46 557 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:09:46 558 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:09:46 593 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside rejectStatus
+11/May/2022:16:09:46 594 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside rejectStatus 
+11/May/2022:16:10:16 101 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:10:16 103 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:10:28 945 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:10:28 947 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:10:37 426 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:10:37 430 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:10:49 691 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:10:49 695 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:10:49 721 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside updateStatus
+11/May/2022:16:10:49 722 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside updateStatus 
+11/May/2022:16:12:27 955 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:12:27 957 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:12:27 972 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside updateStatus
+11/May/2022:16:12:27 973 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside updateStatus 
+11/May/2022:16:12:34 906 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:12:34 907 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:12:34 922 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside rejectStatus
+11/May/2022:16:12:34 922 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside rejectStatus 
+11/May/2022:16:13:15 891 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:13:15 895 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getDonors
+11/May/2022:16:13:15 895 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getAllDonors 
+11/May/2022:16:14:44 639 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:14:44 644 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getRequestHistory
+11/May/2022:16:14:44 645 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getRequestHistory 
+11/May/2022:16:15:28 725 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:15:28 728 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getRequestHistory
+11/May/2022:16:15:28 729 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getRequestHistory 
+11/May/2022:16:15:36 740 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:15:36 742 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getBloodDetails
+11/May/2022:16:15:36 742 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getBloodDetails 
+11/May/2022:16:15:36 788 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getAllDonors 
+11/May/2022:16:15:36 795 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside checkforOldBloodSamples 
+11/May/2022:16:15:36 796 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside findDifference 
+11/May/2022:16:17:37 682 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:17:37 688 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:17:37 714 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside addUserAsDonor
+11/May/2022:16:17:37 714 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside saveUserAsDonor 
+11/May/2022:16:17:57 349 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:17:57 352 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:17:57 375 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside addUserAsDonor
+11/May/2022:16:17:57 376 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside saveUserAsDonor 
+11/May/2022:16:18:09 270 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:18:09 271 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:18:09 288 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside addUserAsDonor
+11/May/2022:16:18:09 288 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside saveUserAsDonor 
+11/May/2022:16:18:22 760 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:18:22 765 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:18:22 788 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside addUserAsDonor
+11/May/2022:16:18:22 788 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside saveUserAsDonor 
+11/May/2022:16:18:31 272 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:18:31 275 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getBloodDetails
+11/May/2022:16:18:31 275 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getBloodDetails 
+11/May/2022:16:18:31 323 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getAllDonors 
+11/May/2022:16:18:31 338 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside checkforOldBloodSamples 
+11/May/2022:16:18:31 338 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside findDifference 
+11/May/2022:16:18:31 339 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside findDifference 
+11/May/2022:16:18:31 339 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside findDifference 
+11/May/2022:16:18:31 339 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside findDifference 
+11/May/2022:16:18:31 357 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside findDifference 
+11/May/2022:16:20:05 258 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:20:05 265 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalDonors 
+11/May/2022:16:20:05 265 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getAllDonors 
+11/May/2022:16:20:05 321 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside checkforOldBloodSamples 
+11/May/2022:16:20:05 321 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside findDifference 
+11/May/2022:16:20:05 321 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside findDifference 
+11/May/2022:16:20:05 322 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside findDifference 
+11/May/2022:16:20:05 322 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside findDifference 
+11/May/2022:16:20:05 322 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside findDifference 
+11/May/2022:16:20:58 952 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:20:58 956 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalBloodGroups 
+11/May/2022:16:20:58 956 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getBloodDetails 
+11/May/2022:16:22:07 422 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:22:07 431 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getUsers
+11/May/2022:16:22:07 432 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside getAllUsers 
+11/May/2022:16:26:49 277 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+11/May/2022:16:26:49 284 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside loadUserByEmail 
+11/May/2022:16:26:49 322 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside addNewBloodRequest
+11/May/2022:16:26:49 322 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside saveBloodRequest 

@@ -1,6 +1,10 @@
 package com.application.config;
 
 import javax.servlet.Filter;
+
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,10 +25,12 @@ import com.application.filter.JwtFilter;
 import com.application.service.RegistrationService;
 
 @SuppressWarnings("unused")
+@Slf4j
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter
 {
+    private static final Logger logger = LoggerFactory.getLogger(SecurityConfig.class);
 
     @Autowired
     private RegistrationService registrationService;
@@ -34,22 +40,29 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
 
     protected void configure(AuthenticationManagerBuilder auth) throws Exception
     {
+        logger.info("[INFO]: inside configure");
         auth.userDetailsService(registrationService);
     }
     @Bean
     public PasswordEncoder passwordEncoder()
     {
+        logger.info("[INFO]: inside passwordEncoder");
+
         return NoOpPasswordEncoder.getInstance();
     }
 
     @Bean(name = BeanIds.AUTHENTICATION_MANAGER)
     public AuthenticationManager authenticationManagerBean() throws Exception
     {
+        logger.info("[INFO]: inside authenticationManagerBean");
+
         return super.authenticationManagerBean();
     }
 
     protected void configure(HttpSecurity http) throws Exception
     {
+        logger.info("[INFO]: inside configure");
+
         http.csrf().disable().authorizeRequests().antMatchers("/authenticate")
                 .permitAll().antMatchers("/profileDetails/{email}","/login","/register","/updateuser")
                 .permitAll().antMatchers("/bloodDetails","/addDonor","/addAsDonor","/acceptstatus/{email}","/rejectstatus/{email}")

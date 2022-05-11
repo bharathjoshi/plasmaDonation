@@ -8,6 +8,17 @@ public class User {
     private String email;
     private String username;
     private String mobile;
+
+    public User(String email, String username, String mobile, String bloodgroup, String gender, int age, String password) {
+        this.email = email;
+        this.username = username;
+        this.mobile = mobile;
+        this.bloodgroup = bloodgroup;
+        this.gender = gender;
+        this.age = age;
+        this.password = password;
+    }
+
     private String bloodgroup;
     private String gender;
     private int age;
