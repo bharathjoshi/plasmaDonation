@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiURL:  "http://localhost:8080"
+  apiURL:  "http://plasmadonation-env.eba-bqdda7cv.us-west-2.elasticbeanstalk.com/"
 };
 
 /*

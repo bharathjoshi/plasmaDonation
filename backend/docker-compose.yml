@@ -1,0 +1,36 @@
+version: "3"
+
+services:
+
+    db:
+        image: mysql:latest
+        container_name: mysql-db2   
+        environment:
+          - MYSQL_DATABASE='PlasmaDonation'
+          - MYSQL_PASSWORD='lana3I2BQC?'
+          - MYSQL_USER='aryavrdhn'
+          - MYSQL_ROOT_PASSWORD='lana3I2BQC?'
+          
+        ports:
+          - "3307:3306"
+        restart: always
+      
+      #service 3: definition of your spring-boot app 
+  
+    plasmadonation:
+                              #it is just a name, which will be used only in this file.
+        image: plasmadonation                 #name of the image after dockerfile executes
+        container_name: plasmadonation-spring-app  #name of the container created from docker image
+        build:
+          context: .                          #docker file path (. means root directory)
+          dockerfile: Dockerfile              #docker file name
+        ports:
+          - "4201:4201"                       #docker containter port with your os port
+        restart: always
+          
+        depends_on:                           #define dependencies of this app
+          - db                                #dependency name (which is defined with this name 'db' in this file earlier)
+        environment:
+          SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/PlasmaDonation
+          SPRING_DATASOURCE_USERNAME: 'aryavrdhn'
+          SPRING_DATASOURCE_PASSWORD: 'lana3I2BQC?'

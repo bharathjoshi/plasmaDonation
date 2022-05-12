@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.application</groupId>
-    <artifactId>BloodBankManagement</artifactId>
+    <artifactId>plasmaDonationManagement</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>plasmaDonationManagement</name>
     <description>Plasma donation Management</description>

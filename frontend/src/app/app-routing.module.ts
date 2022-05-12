@@ -10,6 +10,8 @@ import { LoginsuccessComponent } from './loginsuccess/loginsuccess.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { RegistrationsuccessComponent } from './registrationsuccess/registrationsuccess.component';
 import { RequestbloodComponent } from './requestblood/requestblood.component';
+import { RequesthistoryComponent } from './requesthistory/requesthistory.component';
+import { RequesthistoryfromuserComponent } from './requesthistoryfromuser/requesthistoryfromuser.component';
 import { RouterGuard } from './router.guard';
 import { UserGuard } from './user.guard';
 import { UserasdonorComponent } from './userasdonor/userasdonor.component';
@@ -29,6 +31,8 @@ const routes: Routes = [
   {path:'bloodStock',component:BloodstockComponent},
   {path:'bloodStockuser',component:UserdashboardComponent},
   {path:'userprofile',component:UserprofileComponent,canActivate:[UserGuard]},
+  {path:'requesthistory',component:RequesthistoryComponent,canActivate:[AdminGuard]},
+  {path:'requesthistoryfromuser',component:RequesthistoryfromuserComponent,canActivate:[UserGuard]},
   {path:'requestblood',component:RequestbloodComponent,canActivate:[UserGuard]},
   {path:'userasdonor',component:UserasdonorComponent,canActivate:[UserGuard]},
   {path:'userdashboard',component:UserdashboardComponent,canActivate:[RouterGuard]}

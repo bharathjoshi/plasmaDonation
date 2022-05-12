@@ -1,0 +1,16 @@
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/service/DonorService.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/repository/DonorRepository.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/service/RegistrationService.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/util/JwtUtils.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/model/AuthRequest.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/repository/RequestingBloodRepository.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/model/User.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/model/Donor.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/model/Requesting.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/filter/JwtFilter.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/controller/DonorController.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/config/SecurityConfig.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/plasmaDonationApplication.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/controller/RegistrationController.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/repository/RegistrationRepository.java
+/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/src/main/java/com/application/model/BloodDetails.java

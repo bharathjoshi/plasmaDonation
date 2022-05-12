@@ -5,11 +5,14 @@ import javax.servlet.Filter;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import java.util.*;
+import org.springframework.security.web.firewall.StrictHttpFirewall;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.BeanIds;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -59,22 +62,15 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
         return super.authenticationManagerBean();
     }
 
-    protected void configure(HttpSecurity http) throws Exception
-    {
-        logger.info("[INFO]: inside configure");
 
-        http.csrf().disable().authorizeRequests().antMatchers("/authenticate")
-                .permitAll().antMatchers("/profileDetails/{email}","/login","/register","/updateuser")
-                .permitAll().antMatchers("/bloodDetails","/addDonor","/addAsDonor","/acceptstatus/{email}","/rejectstatus/{email}")
-                .permitAll().antMatchers("/donorlist","/requestHistory","/requestHistory/{email}","/bloodDetails","/getTotalUsers","/getTotalDonors")
-                .permitAll().antMatchers("/getTotalBloodGroups","/getTotalUnits","/getTotalRequests/{email}","/getTotalDonationCount/{email}","/userlist","/requestblood")
-                .permitAll().anyRequest().fullyAuthenticated()
-                .and().exceptionHandling()
-                .accessDeniedHandler((request, response, accessDeniedException) -> {
-                    AccessDeniedHandler defaultAccessDeniedHandler = new AccessDeniedHandlerImpl();
-                    defaultAccessDeniedHandler.handle(request, response, accessDeniedException);
-                }).and().sessionManagement()
-                .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-        http.addFilterBefore((Filter) jwtFilter, UsernamePasswordAuthenticationFilter.class);;
+    @Override
+    protected void configure(HttpSecurity http) {
+        // Do nothing, this is just overriding the default behavior in WebSecurityConfigurerAdapter
+        
     }
+
+    
+    
+    
 }
+
