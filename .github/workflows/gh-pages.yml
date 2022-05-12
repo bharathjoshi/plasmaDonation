@@ -26,12 +26,14 @@ jobs:
 
     - name: Install dependencies
       run: npm install
+    
+    - name: Build
+      run: npm run build:prod
 
     - name: Run tests
       run: npm run test:headless
 
-    - name: Build
-      run: npm run build:prod
+   
 
     - name: Deploy
       if: success()
