@@ -69,4 +69,31 @@ jobs:
             name: plasmaspringbuild
             #From this path
             path: backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar
-      
+    
+  deploy:
+    #Depends on build's job
+    needs: build
+    name: Deploy
+    #Run on Ubuntu using the latest version
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - name: Download JAR
+        #Download the artifact which was uploaded in the build's job
+        uses: actions/download-artifact@v2
+        with:
+          name: plasmaspringbuild
+      #Deploy the artifact (JAR) into AWS Beanstalk
+      - name: Deploy to Elastic
+        uses: einaregilsson/beanstalk-deploy@v13
+        with:
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          use_existing_version_if_available: false
+          application_name: plasma-donation-app
+          environment_name: Plasmadonation-env
+          version_label: ${{github.SHA}}
+          region: us-west-2
+          deployment_package: plasmaDonationManagement-0.0.1-SNAPSHOT.jar    
