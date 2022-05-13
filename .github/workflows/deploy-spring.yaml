@@ -36,6 +36,7 @@ jobs:
       - name: Run Tests
         run: mvn -B test
   build:
+    needs: tests
     name: build
     runs-on: ubuntu-latest
     defaults:
