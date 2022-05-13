@@ -68,5 +68,5 @@ jobs:
             #Set artifact name
             name: plasmaspringbuild
             #From this path
-            path: target/plasmaDonationManagement 0.0.1-SNAPSHOT.jar
+            path: backend/target/plasmaDonationManagement 0.0.1-SNAPSHOT.jar
       
