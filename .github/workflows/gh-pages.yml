@@ -6,6 +6,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
     env:
       AWS_S3_BUCKET_NAME: plasmadonation-frontend
     strategy:
