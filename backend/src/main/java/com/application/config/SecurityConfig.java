@@ -81,18 +81,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
    {
        logger.info("[INFO]: inside configure");
 
-       http.csrf().disable().authorizeRequests().antMatchers("/authenticate")
-               .permitAll().antMatchers("/profileDetails/{email}","/login","/register","/updateuser")
-               .permitAll().antMatchers("/bloodDetails","/addDonor","/addAsDonor","/acceptstatus/{email}","/rejectstatus/{email}")
-               .permitAll().antMatchers("/donorlist","/requestHistory","/requestHistory/{email}","/bloodDetails","/getTotalUsers","/getTotalDonors")
-               .permitAll().antMatchers("/getTotalBloodGroups","/getTotalUnits","/getTotalRequests/{email}","/getTotalDonationCount/{email}","/userlist","/requestblood")
-               .permitAll().anyRequest().fullyAuthenticated()
-               .and().exceptionHandling()
-               .accessDeniedHandler((request, response, accessDeniedException) -> {
-                   AccessDeniedHandler defaultAccessDeniedHandler = new AccessDeniedHandlerImpl();
-                   defaultAccessDeniedHandler.handle(request, response, accessDeniedException);
-               }).and().sessionManagement()
-               .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-       http.addFilterBefore((Filter) jwtFilter, UsernamePasswordAuthenticationFilter.class);;
+       http 
+			.csrf() 
+			.disable()
+			.authorizeRequests()
+			.antMatchers("/**").permitAll()
+			.anyRequest().authenticated();
    }
 }

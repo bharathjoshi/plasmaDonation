@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  apiURL:  "http://localhost:9098/"
+  apiURL:  "http://plasmadonation-env.eba-bqdda7cv.us-west-2.elasticbeanstalk.com"       //DONT ADD BACKSLASH AFTER PORT AT ANY COST
 };
 
 
