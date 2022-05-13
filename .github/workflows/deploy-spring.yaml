@@ -13,7 +13,7 @@ jobs:
     #Run on Ubuntu using the latest version
     runs-on: ubuntu-latest
     defaults:
-      runs:
+      run:
         working-directory: backend
     #Job's steps
     steps:
