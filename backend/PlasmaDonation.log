@@ -714,3 +714,225 @@
 12/May/2022:18:30:12 612 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
 12/May/2022:18:30:12 660 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
 12/May/2022:18:30:12 693 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:08:20 470 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Starting plasmaDonationApplication v0.0.1-SNAPSHOT using Java 11.0.15 on aryavrdhn-Ubuntu with PID 5905 (/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:22:08:20 475 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplication Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:22:08:20 475 [SpringApplication.java] [INFO] c.a.plasmaDonationApplication No active profile set, falling back to default profiles: default
+12/May/2022:22:08:32 289 [GenericFilterBean.java] [DEBUG] com.application.filter.JwtFilter Filter 'jwtFilter' configured for use
+12/May/2022:22:08:32 556 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+12/May/2022:22:08:32 891 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:22:08:33 132 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+12/May/2022:22:08:35 080 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Started plasmaDonationApplication in 15.542 seconds (JVM running for 17.057)
+12/May/2022:22:36:21 343 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Starting plasmaDonationApplicationTest using Java 11.0.15 on aryavrdhn-Ubuntu with PID 7598 (started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:22:36:21 344 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplicationTest Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:22:36:21 348 [SpringApplication.java] [INFO] c.a.plasmaDonationApplicationTest No active profile set, falling back to default profiles: default
+12/May/2022:22:36:26 566 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+12/May/2022:22:36:26 685 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:22:36:26 882 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+12/May/2022:22:36:28 104 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Started plasmaDonationApplicationTest in 7.141 seconds (JVM running for 8.686)
+12/May/2022:22:36:28 326 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:36:28 427 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:36:28 730 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:36:28 745 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:36:28 764 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:36:28 777 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:36:28 795 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:36:28 810 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:37:14 333 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Starting plasmaDonationApplication v0.0.1-SNAPSHOT using Java 11.0.15 on aryavrdhn-Ubuntu with PID 7717 (/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:22:37:14 337 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplication Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:22:37:14 337 [SpringApplication.java] [INFO] c.a.plasmaDonationApplication No active profile set, falling back to default profiles: default
+12/May/2022:22:37:19 848 [GenericFilterBean.java] [DEBUG] com.application.filter.JwtFilter Filter 'jwtFilter' configured for use
+12/May/2022:22:37:20 101 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+12/May/2022:22:37:20 355 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:22:37:20 537 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+12/May/2022:22:37:44 388 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Starting plasmaDonationApplication v0.0.1-SNAPSHOT using Java 11.0.15 on aryavrdhn-Ubuntu with PID 7758 (/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:22:37:44 392 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplication Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:22:37:44 393 [SpringApplication.java] [INFO] c.a.plasmaDonationApplication No active profile set, falling back to default profiles: default
+12/May/2022:22:37:50 350 [GenericFilterBean.java] [DEBUG] com.application.filter.JwtFilter Filter 'jwtFilter' configured for use
+12/May/2022:22:37:50 587 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+12/May/2022:22:37:50 850 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:22:37:51 065 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+12/May/2022:22:37:51 931 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Started plasmaDonationApplication in 8.131 seconds (JVM running for 9.172)
+12/May/2022:22:43:42 152 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Starting plasmaDonationApplicationTest using Java 11.0.15 on aryavrdhn-Ubuntu with PID 8921 (started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:22:43:42 154 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplicationTest Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:22:43:42 167 [SpringApplication.java] [INFO] c.a.plasmaDonationApplicationTest No active profile set, falling back to default profiles: default
+12/May/2022:22:43:48 535 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+12/May/2022:22:43:48 743 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:22:43:49 021 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+12/May/2022:22:43:50 656 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Started plasmaDonationApplicationTest in 8.888 seconds (JVM running for 10.59)
+12/May/2022:22:43:51 253 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:43:51 596 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:43:51 929 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:43:51 946 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:43:52 007 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:43:52 032 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:43:52 094 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:43:52 111 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:44:14 238 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Starting plasmaDonationApplication v0.0.1-SNAPSHOT using Java 11.0.15 on aryavrdhn-Ubuntu with PID 8996 (/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:22:44:14 245 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplication Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:22:44:14 247 [SpringApplication.java] [INFO] c.a.plasmaDonationApplication No active profile set, falling back to default profiles: default
+12/May/2022:22:44:20 899 [GenericFilterBean.java] [DEBUG] com.application.filter.JwtFilter Filter 'jwtFilter' configured for use
+12/May/2022:22:44:21 226 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+12/May/2022:22:44:21 665 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:22:44:21 865 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+12/May/2022:22:44:22 906 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Started plasmaDonationApplication in 9.366 seconds (JVM running for 10.347)
+12/May/2022:22:56:28 716 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Starting plasmaDonationApplicationTest using Java 11.0.15 on aryavrdhn-Ubuntu with PID 11111 (started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:22:56:28 718 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplicationTest Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:22:56:28 725 [SpringApplication.java] [INFO] c.a.plasmaDonationApplicationTest No active profile set, falling back to default profiles: default
+12/May/2022:22:56:34 401 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+12/May/2022:22:56:34 539 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:22:56:34 764 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+12/May/2022:22:56:36 186 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Started plasmaDonationApplicationTest in 7.842 seconds (JVM running for 9.861)
+12/May/2022:22:56:36 422 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:56:36 523 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:56:36 705 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:56:36 718 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:56:36 756 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:56:36 775 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:56:36 797 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:22:56:36 809 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:22:57:36 630 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Starting plasmaDonationApplication v0.0.1-SNAPSHOT using Java 11.0.15 on aryavrdhn-Ubuntu with PID 11263 (/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:22:57:36 634 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplication Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:22:57:36 635 [SpringApplication.java] [INFO] c.a.plasmaDonationApplication No active profile set, falling back to default profiles: default
+12/May/2022:22:57:44 151 [GenericFilterBean.java] [DEBUG] com.application.filter.JwtFilter Filter 'jwtFilter' configured for use
+12/May/2022:22:57:44 383 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+12/May/2022:22:57:44 659 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:22:57:44 855 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+12/May/2022:22:58:05 566 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Starting plasmaDonationApplication v0.0.1-SNAPSHOT using Java 11.0.15 on aryavrdhn-Ubuntu with PID 11498 (/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:22:58:05 571 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplication Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:22:58:05 572 [SpringApplication.java] [INFO] c.a.plasmaDonationApplication No active profile set, falling back to default profiles: default
+12/May/2022:22:58:14 501 [GenericFilterBean.java] [DEBUG] com.application.filter.JwtFilter Filter 'jwtFilter' configured for use
+12/May/2022:22:58:14 927 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+12/May/2022:22:58:15 254 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:22:58:15 520 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+12/May/2022:22:58:16 787 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Started plasmaDonationApplication in 11.927 seconds (JVM running for 12.956)
+12/May/2022:23:05:10 626 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Starting plasmaDonationApplicationTest using Java 11.0.15 on aryavrdhn-Ubuntu with PID 12791 (started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:23:05:10 627 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplicationTest Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:23:05:10 631 [SpringApplication.java] [INFO] c.a.plasmaDonationApplicationTest No active profile set, falling back to default profiles: default
+12/May/2022:23:05:17 118 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Starting plasmaDonationApplicationTest using Java 11.0.15 on aryavrdhn-Ubuntu with PID 12791 (started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:23:05:17 121 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplicationTest Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:23:05:17 133 [SpringApplication.java] [INFO] c.a.plasmaDonationApplicationTest No active profile set, falling back to default profiles: default
+12/May/2022:23:05:20 356 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Starting plasmaDonationApplicationTest using Java 11.0.15 on aryavrdhn-Ubuntu with PID 12791 (started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:23:05:20 356 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplicationTest Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:23:05:20 357 [SpringApplication.java] [INFO] c.a.plasmaDonationApplicationTest No active profile set, falling back to default profiles: default
+12/May/2022:23:05:23 405 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Starting plasmaDonationApplicationTest using Java 11.0.15 on aryavrdhn-Ubuntu with PID 12791 (started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:23:05:23 405 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplicationTest Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:23:05:23 423 [SpringApplication.java] [INFO] c.a.plasmaDonationApplicationTest No active profile set, falling back to default profiles: default
+12/May/2022:23:05:26 397 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Starting plasmaDonationApplicationTest using Java 11.0.15 on aryavrdhn-Ubuntu with PID 12791 (started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:23:05:26 397 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplicationTest Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:23:05:26 398 [SpringApplication.java] [INFO] c.a.plasmaDonationApplicationTest No active profile set, falling back to default profiles: default
+12/May/2022:23:08:24 333 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Starting plasmaDonationApplicationTest using Java 11.0.15 on aryavrdhn-Ubuntu with PID 13143 (started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:23:08:24 334 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplicationTest Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:23:08:24 339 [SpringApplication.java] [INFO] c.a.plasmaDonationApplicationTest No active profile set, falling back to default profiles: default
+12/May/2022:23:08:31 431 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+12/May/2022:23:08:31 570 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:23:08:31 664 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:23:08:31 825 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+12/May/2022:23:08:33 701 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Started plasmaDonationApplicationTest in 9.777 seconds (JVM running for 11.437)
+12/May/2022:23:08:34 061 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:23:08:34 290 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:23:08:34 773 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:23:08:34 817 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:23:08:34 893 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:23:08:34 946 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:23:08:35 000 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+12/May/2022:23:08:35 060 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+12/May/2022:23:09:30 406 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Starting plasmaDonationApplication v0.0.1-SNAPSHOT using Java 11.0.15 on aryavrdhn-Ubuntu with PID 13457 (/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+12/May/2022:23:09:30 409 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplication Running with Spring Boot v2.5.0, Spring v5.3.7
+12/May/2022:23:09:30 410 [SpringApplication.java] [INFO] c.a.plasmaDonationApplication No active profile set, falling back to default profiles: default
+12/May/2022:23:09:36 318 [GenericFilterBean.java] [DEBUG] com.application.filter.JwtFilter Filter 'jwtFilter' configured for use
+12/May/2022:23:09:36 561 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+12/May/2022:23:09:36 822 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:23:09:36 953 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+12/May/2022:23:09:37 029 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+12/May/2022:23:09:37 794 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Started plasmaDonationApplication in 8.003 seconds (JVM running for 8.882)
+13/May/2022:10:32:08 752 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Starting plasmaDonationApplicationTest using Java 11.0.15 on aryavrdhn-Ubuntu with PID 28376 (started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+13/May/2022:10:32:08 754 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplicationTest Running with Spring Boot v2.5.0, Spring v5.3.7
+13/May/2022:10:32:08 759 [SpringApplication.java] [INFO] c.a.plasmaDonationApplicationTest No active profile set, falling back to default profiles: default
+13/May/2022:10:32:14 738 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+13/May/2022:10:32:14 747 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+13/May/2022:10:32:16 439 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+13/May/2022:10:32:16 525 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+13/May/2022:10:32:16 805 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Started plasmaDonationApplicationTest in 8.443 seconds (JVM running for 10.122)
+13/May/2022:10:32:17 058 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+13/May/2022:10:32:17 178 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+13/May/2022:10:32:17 572 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+13/May/2022:10:32:17 589 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+13/May/2022:10:32:17 651 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+13/May/2022:10:32:17 669 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+13/May/2022:10:32:17 698 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+13/May/2022:10:32:17 717 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+13/May/2022:10:32:43 578 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Starting plasmaDonationApplication v0.0.1-SNAPSHOT using Java 11.0.15 on aryavrdhn-Ubuntu with PID 28488 (/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+13/May/2022:10:32:43 583 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplication Running with Spring Boot v2.5.0, Spring v5.3.7
+13/May/2022:10:32:43 584 [SpringApplication.java] [INFO] c.a.plasmaDonationApplication No active profile set, falling back to default profiles: default
+13/May/2022:10:32:50 110 [GenericFilterBean.java] [DEBUG] com.application.filter.JwtFilter Filter 'jwtFilter' configured for use
+13/May/2022:10:32:50 316 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+13/May/2022:10:32:50 460 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+13/May/2022:10:32:51 162 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+13/May/2022:10:32:51 346 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+13/May/2022:10:32:51 611 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Started plasmaDonationApplication in 8.964 seconds (JVM running for 9.941)
+13/May/2022:10:54:28 294 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Starting plasmaDonationApplicationTest using Java 11.0.15 on aryavrdhn-Ubuntu with PID 29990 (started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+13/May/2022:10:54:28 295 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplicationTest Running with Spring Boot v2.5.0, Spring v5.3.7
+13/May/2022:10:54:28 300 [SpringApplication.java] [INFO] c.a.plasmaDonationApplicationTest No active profile set, falling back to default profiles: default
+13/May/2022:10:54:34 678 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+13/May/2022:10:54:34 807 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+13/May/2022:10:54:34 887 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+13/May/2022:10:54:35 025 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+13/May/2022:10:54:36 723 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplicationTest Started plasmaDonationApplicationTest in 8.831 seconds (JVM running for 10.454)
+13/May/2022:10:54:36 940 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+13/May/2022:10:54:37 099 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+13/May/2022:10:54:37 372 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+13/May/2022:10:54:37 387 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+13/May/2022:10:54:37 447 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+13/May/2022:10:54:37 498 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+13/May/2022:10:54:37 565 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside saveUser 
+13/May/2022:10:54:37 601 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmail 
+13/May/2022:10:55:52 249 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Starting plasmaDonationApplication v0.0.1-SNAPSHOT using Java 11.0.15 on aryavrdhn-Ubuntu with PID 30068 (/home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar started by aryavrdhn in /home/aryavrdhn/Angular_stuff/FrontEnd/plasmaDonation/backend)
+13/May/2022:10:55:52 255 [StartupInfoLogger.java] [DEBUG] c.a.plasmaDonationApplication Running with Spring Boot v2.5.0, Spring v5.3.7
+13/May/2022:10:55:52 255 [SpringApplication.java] [INFO] c.a.plasmaDonationApplication No active profile set, falling back to default profiles: default
+13/May/2022:10:55:58 625 [GenericFilterBean.java] [DEBUG] com.application.filter.JwtFilter Filter 'jwtFilter' configured for use
+13/May/2022:10:55:58 839 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside authenticationManagerBean
+13/May/2022:10:55:59 117 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+13/May/2022:10:55:59 254 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside configure
+13/May/2022:10:55:59 346 [SecurityConfig.java] [INFO] c.application.config.SecurityConfig [INFO]: inside passwordEncoder
+13/May/2022:10:56:00 311 [StartupInfoLogger.java] [INFO] c.a.plasmaDonationApplication Started plasmaDonationApplication in 8.744 seconds (JVM running for 9.724)
+13/May/2022:11:00:03 943 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:00:04 000 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:00:04 119 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:inside loginUser 
+13/May/2022:11:00:04 120 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside fetchUserByEmailAndPassword 
+13/May/2022:11:00:04 398 [RegistrationController.java] [INFO] c.a.c.RegistrationController [INFO]:Login Successful
+13/May/2022:11:00:04 501 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:00:04 510 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalDonors 
+13/May/2022:11:00:04 510 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getAllDonors 
+13/May/2022:11:00:04 518 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:00:04 518 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:00:04 519 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:00:04 520 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalBloodGroups 
+13/May/2022:11:00:04 521 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getBloodDetails 
+13/May/2022:11:00:04 522 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:00:04 522 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:00:04 530 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalUnits
+13/May/2022:11:00:04 532 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalUsers 
+13/May/2022:11:00:04 532 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside getAllUsers 
+13/May/2022:11:00:04 532 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getBloodDetails 
+13/May/2022:11:00:04 574 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getAllDonors 
+13/May/2022:11:00:04 582 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalRequests
+13/May/2022:11:00:04 594 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getRequestHistoryByEmail 
+13/May/2022:11:00:04 720 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside checkforOldBloodSamples 
+13/May/2022:11:33:55 363 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:33:55 369 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:33:55 369 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:33:55 372 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:33:55 373 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:33:55 376 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalUsers 
+13/May/2022:11:33:55 376 [RegistrationService.java] [INFO] c.a.service.RegistrationService [INFO]: inside getAllUsers 
+13/May/2022:11:33:55 376 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getAllDonors 
+13/May/2022:11:33:55 382 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalBloodGroups 
+13/May/2022:11:33:55 383 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getBloodDetails 
+13/May/2022:11:33:55 393 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalRequests
+13/May/2022:11:33:55 393 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getRequestHistoryByEmail 
+13/May/2022:11:33:55 395 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalDonors 
+13/May/2022:11:33:55 396 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getAllDonors 
+13/May/2022:11:33:55 401 [JwtFilter.java] [INFO] com.application.filter.JwtFilter [INFO]: inside doFilterInternal 
+13/May/2022:11:33:55 404 [DonorController.java] [INFO] c.a.controller.DonorController [INFO]: inside getTotalUnits
+13/May/2022:11:33:55 404 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside getBloodDetails 
+13/May/2022:11:33:55 461 [DonorService.java] [INFO] com.application.service.DonorService [INFO]: inside checkforOldBloodSamples 

@@ -42,34 +42,34 @@ public class RegistrationController
         return "Welcome to Blood Bank Management system !!!";
     }
 
-    @PostMapping("/authenticate")
-    @CrossOrigin(origins = "*")
-    public ResponseEntity<String> generateToken(@RequestBody AuthRequest authRequest) throws Exception
-    {
-        try
-        {
+   @PostMapping("/authenticate")
+   @CrossOrigin(origins = "*")
+   public ResponseEntity<String> generateToken(@RequestBody AuthRequest authRequest) throws Exception
+   {
+       try
+       {
 
-            logger.info("[INFO]: inside generateToken ");
-            List<User> users = registerService.getAllUsers();
-            String currentEmail = "";
-            for(User obj:users)
-            {
-                if(obj.getEmail().equalsIgnoreCase(authRequest.getEmail()))
-                {
-                    currentEmail = obj.getUsername();
-                }
-            }
-            logger.info("[INFO]: Authenticating ");
+           logger.info("[INFO]: inside generateToken ");
+           List<User> users = registerService.getAllUsers();
+           String currentEmail = "";
+           for(User obj:users)
+           {
+               if(obj.getEmail().equalsIgnoreCase(authRequest.getEmail()))
+               {
+                   currentEmail = obj.getUsername();
+               }
+           }
+           logger.info("[INFO]: Authenticating ");
 
-            authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(currentEmail, authRequest.getPassword()));
-        }
-        catch (Exception ex)
-        {
-            logger.error("[ERROR] : Invalid Username/password");
-            throw new Exception("Invalid Username/password");
-        }
-        return new ResponseEntity<String>(jwtUtil.generateToken(authRequest.getEmail()), HttpStatus.OK);
-    }
+           authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(currentEmail, authRequest.getPassword()));
+       }
+       catch (Exception ex)
+       {
+           logger.error("[ERROR] : Invalid Username/password");
+           throw new Exception("Invalid Username/password");
+       }
+       return new ResponseEntity<String>(jwtUtil.generateToken(authRequest.getEmail()), HttpStatus.OK);
+   }
 
     @PostMapping("/register")
     @CrossOrigin(origins = "*")
