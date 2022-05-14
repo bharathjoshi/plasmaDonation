@@ -24,15 +24,7 @@ jobs:
         run: npm install
       - name: Build Application
         run: npm run-script build
-      - name: Build and Push Docker Image
-        uses: mr-smithers-excellent/docker-build-push@v4
-        with:
-          image: aryavrdhn/plasmadonation-angular-app
-          tag: latest
-          registry: docker.io
-          username: ${{ secrets.DOCKER_HUB_USERNAME }}
-          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }} 
-
+      
       - uses: jakejarvis/s3-sync-action@master
         name: Upload App to S3 Bucket
         with:
@@ -43,3 +35,18 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "us-west-2"
           SOURCE_DIR: "frontend/dist"
+  dockerize:
+    needs: deploy
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - name: Build and Push Docker Image
+        uses: mr-smithers-excellent/docker-build-push@v4
+        with:
+          image: aryavrdhn/plasmadonation-angular-app
+          tag: latest
+          registry: docker.io
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
+          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }} 
