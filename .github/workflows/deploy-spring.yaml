@@ -8,8 +8,43 @@ on:
       - main
 jobs:
   #Test's job
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    
+    steps:
+       - uses: actions/checkout@v1
+      #Set up JDK 11
+       - name: Set up JDK
+         uses: actions/setup-java@v1
+         with:
+            java-version: '11'
+        #Set up Maven cache
+       - name: Cache Maven packages
+          #This action allows caching dependencies and build outputs to improve workflow execution time.
+         uses: actions/cache@v1
+         with:
+            path: ~/.m2
+            key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+            restore-keys: ${{ runner.os }}-m2
+        #Build the application using Maven
+       - name: Build with Maven
+         run: mvn -B package -DskipTests --file pom.xml
+        #Build the application using Maven
+       - name: Upload JAR
+          #This uploads artifacts from your workflow allowing you to share data between jobs and store data once a workflow is complete.
+         uses: actions/upload-artifact@v2
+         with:
+            #Set artifact name
+            name: plasmaspringbuild
+            #From this path
+            path: backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar
   tests:
     name: Unit tests
+    needs: build
     #Run on Ubuntu using the latest version
     runs-on: ubuntu-latest
     defaults:
@@ -35,6 +70,25 @@ jobs:
       #Run Tests
       - name: Run Tests
         run: mvn -B test
+  
+  dockerize:
+    needs: tests
+    name: build-push-to-docker
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    
+    steps:
+      - name: Publish to Docker Hub
+        uses: docker/build-push-action@v1     
+        with:       
+         username: ${{ secrets.DOCKER_HUB_USERNAME }} 
+         password:  ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+         repository: aryavrdhn/plasmadonation-spring-app       
+         tags: ${{github.run_number}}
+    
+  
   sonar:
     #Depends on test's job
     needs: tests
@@ -76,45 +130,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   
-  build:
-    needs: tests
-    name: build
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: backend
-    
-    steps:
-       - uses: actions/checkout@v1
-      #Set up JDK 11
-       - name: Set up JDK
-         uses: actions/setup-java@v1
-         with:
-            java-version: '11'
-        #Set up Maven cache
-       - name: Cache Maven packages
-          #This action allows caching dependencies and build outputs to improve workflow execution time.
-         uses: actions/cache@v1
-         with:
-            path: ~/.m2
-            key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-            restore-keys: ${{ runner.os }}-m2
-        #Build the application using Maven
-       - name: Build with Maven
-         run: mvn -B package -DskipTests --file pom.xml
-        #Build the application using Maven
-       - name: Upload JAR
-          #This uploads artifacts from your workflow allowing you to share data between jobs and store data once a workflow is complete.
-         uses: actions/upload-artifact@v2
-         with:
-            #Set artifact name
-            name: plasmaspringbuild
-            #From this path
-            path: backend/target/plasmaDonationManagement-0.0.1-SNAPSHOT.jar
+  
     
   deploy:
     #Depends on build's job
-    needs: build
+    needs: tests
     name: Deploy
     #Run on Ubuntu using the latest version
     runs-on: ubuntu-latest
